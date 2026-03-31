@@ -1,0 +1,198 @@
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+[ 2, 3000, 1035194821 ]
+Deployment Successful!
+ Pairing Server Running on http://localhost:8889
+      statusCode: 428,
+      error: 'Precondition Required',
+      message: 'Connection Closed'
+    },
+    headers: {}
+  }
+}
+Send error: Error: Connection Closed
+    at sendRawMessage (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:56:19)
+    at sendNode (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:75:16)
+    at query (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:138:79)
+    at Object.executeUSyncQuery (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/usync.js:55:30)
+    at getUSyncDevices (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:143:35)
+    at file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:403:57
+    at Object.transaction (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Utils/auth-utils.js:126:32)
+    at Object.relayMessage (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:288:30)
+    at wVpG (/pairing/node_modules/gifted-btns/gift.js:1617:9)
+    at async EventEmitter.<anonymous> (/pairing/routes/pair.js:128:40) {
+  data: null,
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 428,
+    payload: {
+      statusCode: 428,
+      error: 'Precondition Required',
+      message: 'Connection Closed'
+    },
+    headers: {}
+  }
+}
+Send error: Error: Connection Closed
+    at sendRawMessage (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:56:19)
+    at sendNode (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:75:16)
+    at query (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:138:79)
+    at Object.executeUSyncQuery (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/usync.js:55:30)
+    at getUSyncDevices (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:143:35)
+    at file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:403:57
+    at Object.transaction (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Utils/auth-utils.js:126:32)
+    at Object.relayMessage (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:288:30)
+    at wVpG (/pairing/node_modules/gifted-btns/gift.js:1617:9)
+    at async EventEmitter.<anonymous> (/pairing/routes/pair.js:128:40) {
+  data: null,
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 428,
+    payload: {
+      statusCode: 428,
+      error: 'Precondition Required',
+      message: 'Connection Closed'
+    },
+    headers: {}
+  }
+}
+Error: ENOENT: no such file or directory, open '/pairing/routes/session/hTXw/creds.json'
+    at async open (node:internal/fs/promises:634:25)
+    at async writeFile (node:internal/fs/promises:1206:14)
+    at async file:///pairing/node_modules/@whiskeysockets/baileys/lib/Utils/use-multi-file-auth-state.js:35:17 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/pairing/routes/session/hTXw/creds.json'
+}
+Main error: Error: Connection Closed
+    at sendRawMessage (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:56:19)
+    at sendNode (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:75:16)
+    at Object.requestPairingCode (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:362:15)
+    at async CASPER_PAIR_CODE (/pairing/routes/pair.js:73:30) {
+  data: null,
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 428,
+    payload: {
+      statusCode: 428,
+      error: 'Precondition Required',
+      message: 'Connection Closed'
+    },
+    headers: {}
+  }
+}
+Main error: Error: Connection Closed
+    at sendRawMessage (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:56:19)
+    at sendNode (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:75:16)
+    at Object.requestPairingCode (file:///pairing/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:362:15)
+    at async CASPER_PAIR_CODE (/pairing/routes/pair.js:73:30) {
+  data: null,
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 428,
+    payload: {
+      statusCode: 428,
+      error: 'Precondition Required',
+      message: 'Connection Closed'
+    },
+    headers: {}
+  }
+}
