@@ -3,3 +3,4 @@ node_modules
 .cache
 .local
 package-lock.json
+attached_assets

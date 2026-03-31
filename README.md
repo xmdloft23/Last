@@ -14,8 +14,9 @@
 <h1 align="center">CASPER XD ULTRA - Pairing</h1>
 
 <p align="center">
-  <b>Session Generator for CASPER XD ULTRA WhatsApp Bot</b><br>
-  A web-based pairing tool that generates session IDs for the <a href="https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA">CASPER XD ULTRA</a> WhatsApp bot using Pair Code and QR Code methods.
+  <b>v2.0.0 — Session Generator for CASPER XD ULTRA WhatsApp Bot</b><br>
+  A fast, reliable web-based pairing tool that generates session IDs for the <a href="https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA">CASPER XD ULTRA</a> WhatsApp bot.<br>
+  Supports <b>Pair Code</b> and <b>QR Code</b> methods with improved connection stability, retry logic, and automatic session delivery via WhatsApp.
 </p>
 
 <p align="center">
