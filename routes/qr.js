@@ -39,7 +39,6 @@ router.get('/', async (req, res) => {
 
     async function CASPER_QR_CODE() {
         const { version } = await fetchLatestBaileysVersion();
-        console.log(version);
         const { state, saveCreds } = await useMultiFileAuthState(path.join(sessionDir, id));
         try {
             let Casper = casperConnect({

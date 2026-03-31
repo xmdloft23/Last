@@ -44,17 +44,16 @@ router.get('/', async (req, res) => {
 
     async function CASPER_PAIR_CODE() {
     const { version } = await fetchLatestBaileysVersion();
-    console.log(version);
         const { state, saveCreds } = await useMultiFileAuthState(path.join(sessionDir, id));
         try {
             let Casper = casperConnect({
                 version,
                 auth: {
                     creds: state.creds,
-                    keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
+                    keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "silent" }).child({ level: "silent" })),
                 },
                 printQRInTerminal: false,
-                logger: pino({ level: "fatal" }).child({ level: "fatal" }),
+                logger: pino({ level: "silent" }).child({ level: "silent" }),
                 browser: Browsers.macOS("Safari"),
                 syncFullHistory: false,
                 generateHighQualityLinkPreview: true,
@@ -66,11 +65,27 @@ router.get('/', async (req, res) => {
             });
 
             if (!Casper.authState.creds.registered) {
-                await delay(1500);
+                await delay(5000);
                 num = num.replace(/[^0-9]/g, '');
                 
-                const randomCode = generateRandomCode();
-                const code = await Casper.requestPairingCode(num, randomCode);
+                let code = null;
+                let codeAttempts = 0;
+                const maxCodeAttempts = 3;
+                while (codeAttempts < maxCodeAttempts && !code) {
+                    try {
+                        const randomCode = generateRandomCode();
+                        code = await Casper.requestPairingCode(num, randomCode);
+                    } catch (codeErr) {
+                        codeAttempts++;
+                        if (codeAttempts < maxCodeAttempts) {
+                            await delay(3000);
+                        }
+                    }
+                }
+
+                if (!code) {
+                    throw new Error('Connection Closed');
+                }
                 
                 if (!responseSent && !res.headersSent) {
                     res.json({ code: code });
