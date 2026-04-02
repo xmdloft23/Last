@@ -31,7 +31,7 @@ app.get('/pairing', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-  res.redirect('https://xcasper.space');
+  res.redirect('https://last-9v77.onrender.com');
 });
 
 
